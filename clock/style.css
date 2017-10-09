@@ -1,0 +1,37 @@
+
+
+.wrapper{
+	padding:30px;
+	border:7px solid #767596;
+	border-radius: 50%;
+	margin:20vh auto;
+	width:300px;
+	height: 300px;
+}
+.clock{
+	width:100%;
+	height:100%;
+	position: relative;	
+	-webkit-transform:rotate(90deg);	
+	        transform:rotate(90deg);
+}
+.hand{
+	width:50%;
+	height:8px;
+	background: #767596;
+	position: absolute;
+	top:50%;	
+	-webkit-transform-origin: 100%;	
+	        transform-origin: 100%;
+}
+
+.hour-hand{
+	background: coral;
+	width:40%;
+	left:10%;
+}
+
+.sec-hand{
+	background: #767596;
+	height:4px;
+}

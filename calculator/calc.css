@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    font-size: 22px;
+    font-family: 'Space Mono', monospace;
+}
+
+.wrapper {
+    margin:10vh auto;
+    width: 350px;  
+    padding: 20px;
+    border: 3px solid black;
+    line-height: 38px;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    -webkit-box-shadow: 10px 10px lightgray;
+            box-shadow: 10px 10px lightgray;
+}
+
+h1 {
+    margin-bottom: 10px;
+    text-align: center;
+    letter-spacing: 4px;
+}
+
+input {
+    margin: 10px 5px;
+    height: 50px;
+    border: 2px solid black;
+    outline: none;
+    padding-left: 15px;
+    width:calc(100% - 12px);
+    background:white;
+    color:black;
+}
+
+input:focus {
+    outline: none;
+}
+input::-webkit-input-placeholder{
+    color:black;
+}
+input:-ms-input-placeholder{
+    color:black;
+}
+input::placeholder{
+    color:black;
+}
+.ac,
+.del {
+    width: 30%;
+    height: 40px;
+    margin: 5px;
+    display: inline-block;
+    border: 1px solid black;
+    text-align: center;
+    float: left;
+    letter-spacing: 5px;
+    font-size:16px;
+    cursor: pointer;
+}
+
+.ac:hover,.del:hover{
+    color:coral;
+    border-color:coral;
+}
+
+.numpad {
+    width: 75%;
+    background: lightgray;
+}
+
+.numpad div {
+    display: inline-block;
+    text-align: center;
+    border: 2px solid black;
+    width: calc(33% - 10px);
+    height: 40px;
+    float: left;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.numpad div:hover{
+    color:coral;
+    border-color:coral;
+}
+
+.numpad .zero {
+    width: calc(66% - 10px);
+}
+
+.operator {
+    display: inline-block;
+    width: 25%;
+}
+
+.operator div {
+    display: inline-block;
+    width: calc(100% - 10px);
+    height: 40px;
+    border: 2px solid black;
+    margin: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.operator div:hover{
+    color:coral;
+    border-color:coral;
+}

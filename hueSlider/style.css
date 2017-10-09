@@ -1,0 +1,29 @@
+
+.wrapper{
+	margin: 10vh auto;
+	width: 700px;
+	font-family: consolas;
+	font-size: 34px;
+	color: gray;
+	text-align: center;
+}
+img{
+	display: block;
+	margin: 5vh auto;
+	width: 700px;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	background:transparent ;
+}
+.imgWrap{
+	background: gray;
+}
+input, label{
+	border: none;
+	display: inline-block;
+}
+input[name="color"]{
+	width: 20px;
+}
+
+

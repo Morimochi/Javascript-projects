@@ -1,0 +1,115 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+}
+
+.wrapper {
+  margin: 10vh auto;
+  font-family: 'Space Mono', consolas;
+  width: 400px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  font-size: 18px;
+}
+
+.break {
+  float: left;
+}
+
+.break, .session, .count {
+  width: 50%;
+  display: inline-block;
+  text-align: center;
+  padding: 0 10px;
+}
+
+.count {
+  margin: 40px 25% 0;
+}
+
+.clock {
+  margin: 50px auto;
+  width: 200px;
+  height: 200px;
+  border: 3px solid black;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+  text-align: center;
+  font-size: 40px;
+  line-height: 190px;
+  -webkit-transition:0.4s;
+  transition:0.4s;
+}
+
+span {
+  width: 100%;
+  display: block;
+  letter-spacing: px;
+  margin-bottom: 10px;
+}
+
+.minus, .plus {
+  width: 25%;
+  display: inline-block;
+  float: left;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.length {
+  width: 50%;
+  display: inline-block;
+  float: left;
+  font-size: 25px;
+  text-align: center;
+}
+
+.time {
+  width: 100%;
+  position: absolute;
+  text-align: center;
+}
+
+.hide {
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.gray {
+  color: lightgray;
+}
+
+.push {
+  width: 18%;
+  cursor: pointer;
+  line-height: 40px;
+  font-size: 24px;
+  display: inline-block;
+  float: left;
+  text-align: center;
+  margin: 0 18%;
+}
+
+.stop {
+  width: 12%;
+  cursor: pointer;
+  line-height: 40px;
+  font-size: 24px;
+  display: inline-block;
+  text-align: center;
+  margin: 0 13%;
+}
+
+.color{
+  background-color:black;
+  color:white; 
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>hue slider</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <label for="spacing">Spacing</label>
+        <input type="range" name='spacing' value=0>
+
+        <label for="hue">Hue Shifting</label>
+        <input type="range" name='hue' value=0 max=340>
+
+        <div class="imgWrap">
+            <img src="https://images.unsplash.com/photo-1494894194458-0174142560c0?dpr=1&auto=compress,format&fit=crop&w=1050&h=&q=80&cs=tinysrgb&crop=">
+        </div>
+
+        <label for="color">Frame Color</label>
+        <input type="color" name='color'>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src='script.js'></script>
+
+</body>
+
+</html>
